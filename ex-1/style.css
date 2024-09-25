@@ -168,3 +168,22 @@ h3 {
 }
 
 /* Start coding here */
+
+@media only screen and (max-width: 600px) {
+  .topic {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .categories {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-1,
+  .row-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
